@@ -4,7 +4,7 @@
 */
 
 module lab2_part4(SW,LEDR,HEX5,HEX3,HEX1,HEX0);
-input [7:0] SW;
+input [8:0] SW;
 output [4:0] LEDR;
 output [6:0] HEX5,HEX3,HEX1,HEX0;
 wire [4:0] connect;
